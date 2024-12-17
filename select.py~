@@ -89,6 +89,7 @@ if __name__ == "__main__":
     # print(execute_query(sql_4)) # виведе всіх користувачів, які не мають завдань
     # print("OK" if len(execute_query(sql_5, 4)) == 1 else "FAIL") # додати завдання для користувача з id = 4execute_query(sql_5, 4)) # додати завдання для користувача з id = 4
     # print(execute_query(sql_6, 'completed')) # виведе всі завдання, які не мають статусу 'completed'
+    
     # print("OK" if len(execute_query(sql_7, 33)) == 0 else "FAIL") # видалити завдання з id = 33
     # print(execute_query(sql_8, '%.org')) # виведе всіх користувачів, чий email закінчується на .org
     # print("OK" if len(execute_query(sql_9, 1)) == 0 else "FAIL") # змінити повне ім'я користувача з id = 1 на "John Dow"
